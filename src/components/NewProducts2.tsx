@@ -30,14 +30,14 @@ const productsData = [
     rating: 4,
     price: "749",
   },
- 
+  
 ];
 
-const NewProducts = () => {
+const NewProducts2 = () => {
   return (
     <div>
       <div className="container pt-16">
-        <h2 className="font-medium text-2xl pb-4">Popular Products</h2>
+        <h2 className="font-medium text-2xl pb-4">Your Events</h2>
         <div
           className=" grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2
   lg:grid-cols-4 xl:grid-cols-4 gap-3 xl:gap-x-14 xl:gap-y-4 "
@@ -58,4 +58,4 @@ const NewProducts = () => {
   );
 };
 
-export default NewProducts;
+export default NewProducts2;
